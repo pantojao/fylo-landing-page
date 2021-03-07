@@ -249,7 +249,9 @@ footer {
   body {
 
   }
-
+  .link {
+      margin-right: 3em;
+  }
   .nav-bar{ 
     width: 95%; 
     margin: 1.2em auto; 
