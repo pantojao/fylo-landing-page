@@ -175,13 +175,15 @@ h1, h2, h4, a {
 
 .access-title { 
     text-align: center;
+    font-size: 1.7rem;
     font-weight: bold; 
-    display: block; 
+    margin: 0em;
 }
 
 .access-text {
     text-align: center;
-    margin-top: 0em; 
+    width: 80%;
+    margin: 0em auto;
 }
 
 .access-input {
@@ -305,12 +307,28 @@ footer {
       margin-right: 2em; 
   }
 
-  .access-card{ 
-      width: 600px;
+  .access-controls {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
   }
-
+  .access-card{ 
+      width: 800px;
+  }
+  .access-input{
+      width: 400px;
+      margin: 0em 1em 0em 0em; 
+  }
+  .get-started-btn { 
+    width: 250px; 
+    height: 50px; 
+    margin: 0em;
+    border-radius: 40px; 
+    background-image: linear-gradient(to right,  hsl(176, 68%, 64%) 0%, hsl(198, 60%, 50%) 100%);
+}
+           
   .contact-fylo{
-      width: 300px;
+    width: 300px;
   }
   .logo-location{ 
       width: 400px;
